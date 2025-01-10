@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Netflix.com/login</title>
+</head>
+<body>
+   <div class="cover">
+    <div class="netflix">
+        <a href="">NETFLIX</a>
+    </div>
+    <div class="container">
+    <div class="form">
+        <h1>Sign In</h1>
+        <form action="">
+           <div class="input">
+            <input type="email" name="name" id="input1" placeholder="Email or mobile number">
+            <input type="password" name="password" id="input2" placeholder="Password">
+           </div>
+           
+            
+            <div class="sign-in">
+                <a href="">Sign In</a>
+            </div>
+           
+            <div class="or">
+                <h1>OR</h1>
+            </div>
+            <div class="sign-code">
+                <a href="">Use a Sign-In Code</a>
+            </div>
+            
+            <div class="forgot-password">
+                <a href="">Forgot password?</a>
+            </div>
+           <div class="remember-me">
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Remember-me</label>
+           </div>
+            <div class="new-to-netflix">
+                <span>New to Netflix?</span>
+                <span><a href="">Sign up now.</a></span>
+            </div>
+            <div class="learn-more">
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <span><a href="">Learn more.</a></span> </p>
+            </div>
+        </form>
+
+    </div>
+</div>
+   </div>
+       
+        <div class="footer">
+            <div class="footer-child">
+                <a href="">Questions? Contact us.</a>
+                <a href="">FAQ</a>
+                <a href="">Cookie Preferences</a>
+                <select name="english" id="english">
+                    <option value="english"><i class="fa-regular fa-language"></i>English</option>
+                </select>
+            </div>
+            <div class="footer-child">
+                <a href="">Help Center</a>
+                <a href="">Corporate Information</a>
+            </div>
+            <div class="footer-child">
+                <a href="">Terms Use</a>
+            </div>
+            <div class="footer-child">
+                <a href="">Privacy</a>
+            </div>
+        </div>
+   <script>
+    function changeColor(){
+        var input1=document.getElementById("input1");
+        var input2=document.getElementById("input2");
+
+        if(input1.value){
+            input2.classList.add("active")
+
+        }
+        else{
+            input2.classList.remove("active")
+        }
+    }
+   </script>
+</body>
+</html>

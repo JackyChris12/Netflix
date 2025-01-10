@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    
+}
+.cover{
+    background-image: url(/netflix1.jpg);
+}
+.container{
+   
+   width: 20%;
+   padding: 40px;
+   position: relative;
+   left: 500px;
+   top: 200px;
+   line-height: 2rem;
+   
+}
+
+.netflix a{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    margin: 70px;
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    gap: 10px;
+}
+.form{
+    width: 100%;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    right: 25px;
+    border: 2px solid red;
+    transition: border-color 0.3s ease;
+    
+}
+.active{
+    background-color: red;
+}
+.sign-in{
+   
+    border: 2px solid red;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+.sign-in a{
+    color: white;
+    text-decoration: none;
+    
+}
+.or{
+    text-align: center;
+}
+.sign-code{
+    border: 1px solid gray;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+.sign-code a{
+    text-decoration: none;
+    color: white;
+}
+.forgot-password {
+    text-align: center;
+}
+.forgot-password a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.new-to-netflix a{
+    color: white;
+    text-decoration: none;
+
+}
+.learn-more a{
+    color: blue;
+}
+.footer{
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
+.footer-child{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+.footer-child a{
+    color: white;
+}
